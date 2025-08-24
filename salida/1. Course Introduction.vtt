@@ -1,0 +1,380 @@
+WEBVTT
+
+00:00:10.170 --> 00:00:11.260 align:middle line:90%
+Hello, everyone.
+
+00:00:11.260 --> 00:00:14.040 align:middle line:84%
+Bienvenido al curso de recopilación de información.
+
+00:00:14.040 --> 00:00:16.860 align:middle line:84%
+I'm your instructor Alexis Ahmed.
+
+00:00:16.860 --> 00:00:20.670 align:middle line:84%
+Esta va a ser una introducción formal al curso
+
+00:00:20.670 --> 00:00:22.920 align:middle line:84%
+para darle una idea de lo que cubriremos.
+
+00:00:22.920 --> 00:00:26.220 align:middle line:84%
+Y también echaremos un vistazo a algunos de los aprendizaje
+
+00:00:26.220 --> 00:00:27.820 align:middle line:90%
+Objetivos para este curso.
+
+00:00:27.820 --> 00:00:31.650 align:middle line:84%
+Así que saquemos algunas de las formalidades del camino.
+
+00:00:31.650 --> 00:00:33.210 align:middle line:90%
+Entonces, ¿quién soy yo?
+
+00:00:33.210 --> 00:00:35.010 align:middle line:90%
+Mi nombre es Alexis Ahmed.
+
+00:00:35.010 --> 00:00:38.310 align:middle line:84%
+I am a Senior Penetration Tester at HackerSploit.
+
+00:00:38.310 --> 00:00:41.640 align:middle line:84%
+And I'm also an Offensive Security Instructor
+
+00:00:41.640 --> 00:00:42.732 align:middle line:90%
+Aquí en Ine.
+
+00:00:42.732 --> 00:00:44.190 align:middle line:84%
+Si quieres contactarme,
+
+00:00:44.190 --> 00:00:48.720 align:middle line:84%
+puede hacerlo a través de mi correo electrónico, Twitter y/o LinkedIn, todo lo cual
+
+00:00:48.720 --> 00:00:51.700 align:middle line:84%
+han sido publicados en esta diapositiva en particular.
+
+00:00:51.700 --> 00:00:54.570 align:middle line:84%
+Entonces, si quieres contactarme, así es como puedes.
+
+00:00:54.570 --> 00:00:59.310 align:middle line:84%
+Así que comencemos obteniendo una visión general de alto nivel de lo que
+
+00:00:59.310 --> 00:01:00.700 align:middle line:84%
+we'll be covering in this course.
+
+00:01:00.700 --> 00:01:04.560 align:middle line:84%
+De nuevo, estamos comenzando con la recopilación de información.
+
+00:01:04.560 --> 00:01:07.200 align:middle line:84%
+Así que recibiremos una introducción a la información
+
+00:01:07.200 --> 00:01:10.920 align:middle line:84%
+reunir, comprender qué es
+
+00:01:10.920 --> 00:01:14.220 align:middle line:84%
+y para qué se usa durante una prueba de penetración,
+
+00:01:14.220 --> 00:01:17.430 align:middle line:84%
+Y realmente por qué es tan importante,
+
+00:01:17.430 --> 00:01:19.650 align:middle line:84%
+o por qué esta fase de una prueba de penetración
+
+00:01:19.650 --> 00:01:21.300 align:middle line:90%
+es tan importante.
+
+00:01:21.300 --> 00:01:24.510 align:middle line:84%
+Y, por supuesto, también tendrá una comprensión
+
+00:01:24.510 --> 00:01:28.140 align:middle line:84%
+En cuanto a cuáles son las diferencias entre activo y pasivo
+
+00:01:28.140 --> 00:01:29.850 align:middle line:90%
+recopilación de información.
+
+00:01:29.850 --> 00:01:32.070 align:middle line:84%
+Una vez que conocemos las diferencias entre los dos,
+
+00:01:32.070 --> 00:01:35.010 align:middle line:84%
+Podemos comenzar con la recopilación de información pasiva.
+
+00:01:35.010 --> 00:01:38.340 align:middle line:84%
+Echaremos un vistazo a las diversas herramientas y técnicas.
+
+00:01:38.340 --> 00:01:41.280 align:middle line:84%
+que se puede utilizar para obtener esencialmente información
+
+00:01:41.280 --> 00:01:45.540 align:middle line:84%
+sobre un sistema objetivo o una empresa en sí misma
+
+00:01:45.540 --> 00:01:50.760 align:middle line:84%
+a través de fuentes o información disponibles.
+
+00:01:50.760 --> 00:01:53.280 align:middle line:84%
+Entonces el objetivo con la recopilación de información pasiva
+
+00:01:53.280 --> 00:01:56.850 align:middle line:84%
+es esencialmente encontrar tanta información como sea posible
+
+00:01:56.850 --> 00:02:01.590 align:middle line:84%
+sobre nuestro objetivo de fuentes disponibles públicamente
+
+00:02:01.590 --> 00:02:05.760 align:middle line:84%
+Como Internet, como Google, como cualquier otra base de datos
+
+00:02:05.760 --> 00:02:08.370 align:middle line:84%
+en línea que puede arrojar algo de luz o puede proporcionarnos
+
+00:02:08.370 --> 00:02:10.620 align:middle line:84%
+con una buena idea de lo que estamos tratando
+
+00:02:10.620 --> 00:02:15.810 align:middle line:84%
+con respecto a la empresa, o el individuo, o los sistemas
+
+00:02:15.810 --> 00:02:17.880 align:middle line:90%
+que estamos apuntando.
+
+00:02:17.880 --> 00:02:21.210 align:middle line:84%
+Luego pasaremos a la recopilación de información activa.
+
+00:02:21.210 --> 00:02:23.490 align:middle line:84%
+Recopilación de información activa esencialmente
+
+00:02:23.490 --> 00:02:27.840 align:middle line:84%
+implica participar activamente con los sistemas objetivo
+
+00:02:27.840 --> 00:02:31.870 align:middle line:84%
+para obtener esencialmente información más específica.
+
+00:02:31.870 --> 00:02:35.610 align:middle line:84%
+Entonces, un ejemplo de esto sería, una vez que hayamos obtenido la IP
+
+00:02:35.610 --> 00:02:38.550 align:middle line:84%
+dirección del sistema que está dentro del alcance de lo que somos
+
+00:02:38.550 --> 00:02:42.030 align:middle line:84%
+permitido probar desde la etapa de recopilación de información pasiva,
+
+00:02:42.030 --> 00:02:44.250 align:middle line:84%
+dentro de la etapa de recopilación de información activa,
+
+00:02:44.250 --> 00:02:46.740 align:middle line:84%
+Luego podemos comenzar a realizar un escaneo de puertos en
+
+00:02:46.740 --> 00:02:51.030 align:middle line:84%
+esa dirección IP para tener una idea de qué servicios se están ejecutando
+
+00:02:51.030 --> 00:02:52.087 align:middle line:90%
+en ese sistema.
+
+00:02:52.087 --> 00:02:53.670 align:middle line:84%
+We're not going to be exploiting them.
+
+00:02:53.670 --> 00:02:55.260 align:middle line:84%
+Eso es algo que vamos
+
+00:02:55.260 --> 00:02:59.490 align:middle line:84%
+para llegar después de completar el curso de enumeración, que
+
+00:02:59.490 --> 00:03:01.000 align:middle line:90%
+es después de esto.
+
+00:03:01.000 --> 00:03:05.040 align:middle line:84%
+Entonces, el objetivo aquí es obtener información más específica
+
+00:03:05.040 --> 00:03:07.470 align:middle line:90%
+sobre un sistema o un individuo.
+
+00:03:07.470 --> 00:03:09.840 align:middle line:84%
+Y esto solo se puede hacer por activamente
+
+00:03:09.840 --> 00:03:13.920 align:middle line:84%
+interactuar con ese sistema o ese individuo
+
+00:03:13.920 --> 00:03:16.150 align:middle line:90%
+o esa compañía.
+
+00:03:16.150 --> 00:03:19.140 align:middle line:84%
+Entonces, con respecto a los requisitos previos,
+
+00:03:19.140 --> 00:03:21.270 align:middle line:84%
+los únicos dos requisitos previos que se requieren
+
+00:03:21.270 --> 00:03:23.820 align:middle line:84%
+es que necesitas tener una familiaridad básica con Linux,
+
+00:03:23.820 --> 00:03:25.770 align:middle line:84%
+Porque vamos a utilizar
+
+00:03:25.770 --> 00:03:29.250 align:middle line:84%
+Kali Linux como nuestra distribución de pruebas de penetración de elección.
+
+00:03:29.250 --> 00:03:33.600 align:middle line:84%
+Por lo tanto, debe tener la capacidad de navegar por el Linux
+
+00:03:33.600 --> 00:03:38.080 align:middle line:84%
+Sistema de archivos, utilice el terminal de Linux para ejecutar comandos,
+
+00:03:38.080 --> 00:03:39.113 align:middle line:90%
+así que adelante.
+
+00:03:39.113 --> 00:03:40.530 align:middle line:84%
+Y, por supuesto, porque vamos
+
+00:03:40.530 --> 00:03:43.140 align:middle line:84%
+para realizar mucho reconocimiento o información
+
+00:03:43.140 --> 00:03:46.080 align:middle line:84%
+recopilación, en sitios web y aplicaciones web,
+
+00:03:46.080 --> 00:03:49.770 align:middle line:84%
+Necesita tener una familiaridad básica con la web
+
+00:03:49.770 --> 00:03:52.480 align:middle line:84%
+tecnologías o, en términos generales, con la web.
+
+00:03:52.480 --> 00:03:55.350 align:middle line:84%
+Por lo tanto, debe comprender los diversos protocolos que
+
+00:03:55.350 --> 00:04:02.340 align:middle line:84%
+Operar en la web, como HTTP, HTTPS, DNS, así que adelante.
+
+00:04:02.340 --> 00:04:04.650 align:middle line:84%
+En cuanto a los objetivos de aprendizaje, realmente hay
+
+00:04:04.650 --> 00:04:06.810 align:middle line:90%
+son tres objetivos principales aquí.
+
+00:04:06.810 --> 00:04:09.297 align:middle line:84%
+Y, por supuesto, estoy siendo extremadamente simplista aquí.
+
+00:04:09.297 --> 00:04:11.130 align:middle line:84%
+Pero los estudiantes aprenderán sobre la diferencia
+
+00:04:11.130 --> 00:04:13.860 align:middle line:84%
+entre la recopilación de información activa y pasiva.
+
+00:04:13.860 --> 00:04:17.820 align:middle line:84%
+Esto es muy importante, porque a veces cuando los principiantes se ponen
+
+00:04:17.820 --> 00:04:21.570 align:middle line:84%
+started in penetration testing, they sort of mix up the two.
+
+00:04:21.570 --> 00:04:24.480 align:middle line:84%
+Y eso puede ser bastante problemático, porque tú
+
+00:04:24.480 --> 00:04:27.000 align:middle line:84%
+quiero separar realmente estas dos fases,
+
+00:04:27.000 --> 00:04:29.070 align:middle line:84%
+Porque la información que obtienes de cada fase
+
+00:04:29.070 --> 00:04:30.570 align:middle line:84%
+va a ser diferente y son
+
+00:04:30.570 --> 00:04:34.120 align:middle line:90%
+utilizado para diferentes cosas.
+
+00:04:34.120 --> 00:04:36.990 align:middle line:84%
+Entonces eso es algo que aprenderás.
+
+00:04:36.990 --> 00:04:40.050 align:middle line:84%
+También aprenderá a realizar recopilación de información pasiva.
+
+00:04:40.050 --> 00:04:43.830 align:middle line:84%
+aprovechando varias herramientas y recursos disponibles en línea
+
+00:04:43.830 --> 00:04:46.320 align:middle line:90%
+o que son accesibles públicamente.
+
+00:04:46.320 --> 00:04:48.930 align:middle line:84%
+Y, por supuesto, aprende a realizar información activa
+
+00:04:48.930 --> 00:04:49.740 align:middle line:90%
+reunión.
+
+00:04:49.740 --> 00:04:52.410 align:middle line:84%
+Por supuesto, también vamos a echar un vistazo a las herramientas
+
+00:04:52.410 --> 00:04:56.370 align:middle line:84%
+y recursos que se pueden utilizar para realizar información activa
+
+00:04:56.370 --> 00:04:57.150 align:middle line:90%
+reunión.
+
+00:04:57.150 --> 00:04:58.620 align:middle line:84%
+Dicho esto, solo quiero
+
+00:04:58.620 --> 00:05:02.760 align:middle line:84%
+Para sacar un descargo de responsabilidad que en este curso en particular,
+
+00:05:02.760 --> 00:05:05.920 align:middle line:84%
+Verá bastantes ejemplos de herramientas
+
+00:05:05.920 --> 00:05:07.480 align:middle line:84%
+y técnicas que se están utilizando
+
+00:05:07.480 --> 00:05:11.440 align:middle line:84%
+en sitios web o direcciones IP del mundo real,
+
+00:05:11.440 --> 00:05:16.780 align:middle line:84%
+y siempre es una buena práctica o recomendada como penetración
+
+00:05:16.780 --> 00:05:20.020 align:middle line:84%
+El probador nunca ejecuta ninguna de estas herramientas
+
+00:05:20.020 --> 00:05:22.330 align:middle line:84%
+o realizar cualquiera de estas técnicas exhibidas
+
+00:05:22.330 --> 00:05:25.330 align:middle line:84%
+dentro de este curso en cualquier otro sistema
+
+00:05:25.330 --> 00:05:30.580 align:middle line:84%
+o en cualquier otro conjunto de IP en Internet
+
+00:05:30.580 --> 00:05:33.640 align:middle line:84%
+sin permiso o autorización previa.
+
+00:05:33.640 --> 00:05:36.400 align:middle line:84%
+Porque recuerda, como probador de penetración,
+
+00:05:36.400 --> 00:05:40.000 align:middle line:84%
+Necesita tener permiso por escrito de su empleador
+
+00:05:40.000 --> 00:05:42.160 align:middle line:84%
+o de su cliente diciéndole eso,
+
+00:05:42.160 --> 00:05:45.970 align:middle line:84%
+Ok, te estoy dando permiso para probar estos sistemas.
+
+00:05:45.970 --> 00:05:48.640 align:middle line:84%
+Sin eso, lo que estás haciendo es ilegal.
+
+00:05:48.640 --> 00:05:53.110 align:middle line:84%
+Por lo tanto, necesita una autorización adecuada de su cliente o una empresa
+
+00:05:53.110 --> 00:05:56.710 align:middle line:84%
+diciéndote que puedes hacer lo que se supone que debes hacer.
+
+00:05:56.710 --> 00:05:59.140 align:middle line:90%
+Así que tenga eso en cuenta.
+
+00:05:59.140 --> 00:06:01.533 align:middle line:84%
+Dicho esto, ahora que tenemos una introducción
+
+00:06:01.533 --> 00:06:02.950 align:middle line:84%
+al curso, en realidad podemos obtener
+
+00:06:02.950 --> 00:06:05.290 align:middle line:84%
+comenzó con la primera sección de este curso, que
+
+00:06:05.290 --> 00:06:08.020 align:middle line:84%
+te presentará la recopilación de información.
+
+00:06:08.020 --> 00:06:09.580 align:middle line:84%
+Y repasaremos las diferencias
+
+00:06:09.580 --> 00:06:11.890 align:middle line:84%
+entre la recopilación de información pasiva
+
+00:06:11.890 --> 00:06:13.810 align:middle line:84%
+y recopilación de información activa.
+
+00:06:13.810 --> 00:06:17.893 align:middle line:84%
+Así que te veré en el próximo video.
+
